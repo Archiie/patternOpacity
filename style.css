@@ -1,0 +1,62 @@
+.patternOpacityContainer {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 70px 0;
+  background: -webkit-linear-gradient(left top, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240)); /* Standard syntax */
+  background: url('.images/pattern.png'), linear-gradient(to bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240));
+  background-size: 20%, 100%;
+  height: auto;
+}
+
+.patternOpacityContainer:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: auto;
+  background: url('.images/pattern.png');
+  opacity: 0.95;
+}
+
+.patternOpacityBanner {
+  padding-bottom: 25px;
+  font-size: 44px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.patternOpacityTitle {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0.2em;
+}
+
+.patternOpacityText {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.patternOpacityImg1, .patternOpacityImg2, .patternOpacityImg3 {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+}
+
+.patternOpacityImg1 {
+  background-color: #696CEB;
+}
+
+.patternOpacityImg2 {
+  background-color: #7054DF;
+}
+
+.patternOpacityImg3 {
+  background-color: #7B38D3;
+}
+
