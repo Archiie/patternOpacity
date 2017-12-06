@@ -7,7 +7,7 @@
   background: -o-linear-gradient(bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240)); /* Standard syntax */
-  background: url('.images/pattern.png'), linear-gradient(to bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240));
+  background: url('./images/pattern.png'), linear-gradient(to bottom right, rgb(62,131,255), rgb(64,126,253), rgb(99,22,203), rgb(122,5,240));
   background-size: 20%, 100%;
   height: auto;
 }
@@ -17,7 +17,7 @@
   display: block;
   width: 100%;
   height: auto;
-  background: url('.images/pattern.png');
+  background: url('./images/pattern.png');
   opacity: 0.95;
 }
 
